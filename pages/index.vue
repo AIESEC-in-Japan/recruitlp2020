@@ -26,12 +26,12 @@
 
 <script>
 import Logo from '~/components/Logo.vue'
-import Main-visual from '~/components/main-visual.vue'
+import MainVisual from '~/components/MainVisual.vue'
 
 export default {
   components: {
     Logo,
-    Main-visual
+    MainVisual
   }
 }
 </script>

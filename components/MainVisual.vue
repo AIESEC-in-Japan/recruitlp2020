@@ -1,5 +1,5 @@
 <template>
-    <div id="main-visual">
+    <div class="main-visual">
         <p>世界を変えるのは、</p>
     </div>
 </template>
@@ -8,7 +8,7 @@
 </script>
 
 <style scoped lang="scss">
-#main-visual{
+.main-visual{
     width: 100%;
     height: 100vh;
     background-color: black;
@@ -19,6 +19,7 @@
     p{
         color: white;
         font-style: italic;
+        font-size: 30px;
     }
 }
 </style>
