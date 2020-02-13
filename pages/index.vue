@@ -1,5 +1,7 @@
 <template>
+  <div class="wrapper">
     <MainVisual></MainVisual>
+  </div>
 </template>
 
 <script>
