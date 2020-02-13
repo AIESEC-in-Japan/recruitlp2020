@@ -1,9 +1,9 @@
 <template>
   <div class="visual-container">
-    <p class="message-main">
+    <h1>
       世界を変えるのは、
       <br />誰だっていい。
-    </p>
+    </h1>
 
     <p>
       ステートメント
@@ -34,16 +34,18 @@
   justify-content: center;
   text-align: center;
 
+  h1 {
+    color: #fff;
+    font-style: italic;
+    padding: 30px 0;
+    font-size: 30px;
+  }
+
   p {
     color: #fff;
     font-style: italic;
     font-size: 18px;
     padding: 30px 0;
-
-    &.message-main {
-      font-size: 30px;
-    }
-
     &.message-sub {
       font-style: italic;
     }
