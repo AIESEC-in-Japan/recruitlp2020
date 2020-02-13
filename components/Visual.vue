@@ -33,11 +33,12 @@
   align-content: space-between;
   justify-content: center;
   text-align: center;
+  letter-spacing: 0.3em;
 
   h1 {
     color: #fff;
     font-style: italic;
-    padding: 30px 0;
+    padding: 40px 0;
     font-size: 30px;
   }
 
@@ -45,7 +46,7 @@
     color: #fff;
     font-style: italic;
     font-size: 18px;
-    padding: 30px 0;
+    padding: 10px 0;
     &.message-sub {
       font-style: italic;
     }
