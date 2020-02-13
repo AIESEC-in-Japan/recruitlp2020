@@ -1,22 +1,22 @@
 <template>
   <div class="visual-container">
-    <h1>
+    <p class="message-main">
       世界を変えるのは、
       <br />誰だっていい。
-    </h1>
+    </p>
 
-    <h2>
+    <p>
       ステートメント
       <br />ステートメント
       <br />ステートメント
-    </h2>
+    </p>
 
-    <h2 class="subtitle">
+    <p class="message-sub">
       別に誰が変えたっていいんだよ
       <br />キミかもしれないんだよ
-    </h2>
+    </p>
 
-    <h2>うんぬんかんぬんぬん。</h2>
+    <p>うんぬんかんぬんぬん。</p>
   </div>
 </template>
 
@@ -34,19 +34,17 @@
   justify-content: center;
   text-align: center;
 
-  h1 {
+  p {
     color: #fff;
     font-style: italic;
-    font-size: 30px;
-    padding: 30px 0;
-  }
-
-  h2 {
-    color: #fff;
     font-size: 18px;
     padding: 30px 0;
 
-    .subtitle {
+    &.message-main {
+      font-size: 30px;
+    }
+
+    &.message-sub {
       font-style: italic;
     }
   }
