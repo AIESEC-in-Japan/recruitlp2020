@@ -1,14 +1,18 @@
 <template>
   <div class="wrapper">
+    <MainVisual />
     <Visual />
   </div>
 </template>
 
 <script>
+import MainVisual from '~/components/MainVisual.vue'
 import Visual from '~/components/Visual.vue'
+
 
 export default {
   components: {
+    MainVisual,
     Visual
   }
 }
