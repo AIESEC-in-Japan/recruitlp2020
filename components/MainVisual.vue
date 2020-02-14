@@ -19,7 +19,9 @@
     p{
         color: white;
         font-style: italic;
+        font-weight: bold;
         font-size: 30px;
+        letter-spacing: 0.2em;
     }
 }
 </style>
