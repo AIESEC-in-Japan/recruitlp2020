@@ -32,18 +32,18 @@
   line-height: 80px;
 
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   margin: 0 auto;
   padding: 0px 5%;
 
   ul {
     display: flex;
-    text-align: right;
   }
   li {
     margin-left: 50px;
     list-style-type: none;
-    letter-spacing: 8px;
+    letter-spacing: 7px;
+    display: inline-block;
   }
   a {
     color: #fff;
