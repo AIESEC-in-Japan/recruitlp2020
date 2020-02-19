@@ -40,10 +40,10 @@
     display: flex;
   }
   li {
-    margin-left: 50px;
+    margin-left: 35px;
     list-style-type: none;
-    letter-spacing: 7px;
     display: inline-block;
+    letter-spacing: 12px;
   }
   a {
     color: #fff;
@@ -51,6 +51,7 @@
     text-decoration: none;
     font-size: 15px;
     font-style: italic;
+    letter-spacing: 3px;
   }
   a:hover {
     opacity: 0.7;
