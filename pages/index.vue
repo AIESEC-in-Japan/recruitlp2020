@@ -17,7 +17,7 @@ export default {
   components: {
     MainVisual,
     Visual,
-    Button
+    Button,
   }
 }
 </script>
