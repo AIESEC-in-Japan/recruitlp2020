@@ -2,9 +2,9 @@
   <div class="wrapper">
     <MainVisual />
     <Visual />
-  <a class="Button">
+     <div class="Button">
     <Button/>
-  </a> 
+  </div>
   </div>
 </template>
 
@@ -12,7 +12,6 @@
 import MainVisual from '~/components/MainVisual.vue'
 import Visual from '~/components/Visual.vue'
 import Button from '~/components/Button.vue'
-
 
 export default {
   components: {
