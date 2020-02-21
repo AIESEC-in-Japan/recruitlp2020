@@ -2,7 +2,7 @@
   <div class="wrapper">
     <MainVisual />
     <Visual />
-     <div class="Button">
+  <div class="Button">
     <Button/>
   </div>
   </div>
