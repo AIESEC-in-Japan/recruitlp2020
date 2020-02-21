@@ -2,16 +2,16 @@
   <div class="wrapper">
     <MainVisual />
     <Visual />
-     <a class="Button">
+  <a class="Button">
     <Button/>
-  </a>
+  </a> 
   </div>
 </template>
 
 <script>
 import MainVisual from '~/components/MainVisual.vue'
 import Visual from '~/components/Visual.vue'
-import Button from '~/Button/Visual.vue'
+import Button from '~/component/Button.vue'
 
 
 export default {
