@@ -12,10 +12,10 @@
           <a href="#activities">activities.</a>
         </li>
         <li>
-          <a href="/join">join.</a>
+          <a href="#join">join.</a>
         </li>
         <li>
-          <a href="/contact">contact.</a>
+          <a href="#contact">contact.</a>
         </li>
       </ul>
     </nav>
@@ -43,7 +43,6 @@
     margin-left: 35px;
     list-style-type: none;
     display: inline-block;
-    letter-spacing: 12px;
   }
   a {
     color: #fff;
@@ -51,7 +50,7 @@
     text-decoration: none;
     font-size: 15px;
     font-style: italic;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
   }
   a:hover {
     opacity: 0.7;
