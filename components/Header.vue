@@ -50,7 +50,7 @@
     text-decoration: none;
     font-size: 15px;
     font-style: italic;
-    letter-spacing: 1px;
+    letter-spacing: 3px;
   }
   a:hover {
     opacity: 0.7;
