@@ -9,13 +9,13 @@ import loading from "@/assets/animation/loading.json";
 
 export default {
   data: () => ({
-    loading: false
+    loading: false,
     options: {
       animationData,
       loop: false,
       autoplay: false,
       rendererSettings: ""
-    };
+    }
   }),
   mounted() {
     this.anim = lottie.loadAnimation({
@@ -26,15 +26,17 @@ export default {
       animationData: this.options.animationData,
       rendererSettings: this.options.rendererSettings
     });
-  }
+  },
   methods: {
     start() {
       this.anim.play();
+      console.log("debug loading start")
       this.loading = true;
     },
     finish() {
       this.anim.stop();
       this.loading = false;
+      console.log("debug loading finish")
     }
   }
 }
