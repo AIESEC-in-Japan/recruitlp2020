@@ -2,9 +2,6 @@
   <div class="wrapper">
     <MainVisual />
     <Visual />
-  <div class="Button">
-    <Button/>
-  </div>
   </div>
 </template>
 
