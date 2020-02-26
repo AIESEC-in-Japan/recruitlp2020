@@ -5,25 +5,30 @@
 </template>
 
 <script>
-import loading from "@/assets/animation/loading.json";
+import * as animationData from "@/assets/animation/loading.json";
+import lottie from "lottie-web";
 
 export default {
-  data: () => ({
-    loading: false,
-    options: {
-      animationData,
-      loop: false,
-      autoplay: false,
-      rendererSettings: ""
-    }
-  }),
+    data () {
+      return {
+        loading: false,
+        options: {
+          animationData,
+          loop: false,
+          autoplay: false,
+          rendererSettings: ""
+        },
+      }
+    },
+
   mounted() {
+    console.log(this.options.animationData.default)
     this.anim = lottie.loadAnimation({
       container: this.$refs.lavContainer,
       renderer: "svg",
-      loop: this.options.loop !== false,
+      loop: true,
       autoplay: this.options.autoplay !== false,
-      animationData: this.options.animationData,
+      animationData: this.options.animationData.default,
       rendererSettings: this.options.rendererSettings
     });
   },
@@ -35,8 +40,8 @@ export default {
     },
     finish() {
       this.anim.stop();
-      this.loading = false;
       console.log("debug loading finish")
+      this.loading = false;
     }
   }
 }

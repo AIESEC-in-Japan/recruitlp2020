@@ -28,6 +28,15 @@ export default {
    ** Customize the progress-bar color
    */
   loading: '~/components/loading.vue',
+  /*たぶん要らんけど、コードの意味がわかってないので一応挙動解析ように残しとく
+  mounted () {
+    this.$nextTick(() => {
+      this.$nuxt.$loading.start()
+
+      setTimeout(() => this.$nuxt.$loading.finish(), 500)
+    })
+  },
+  */
   /*
    ** Global CSS
    */
