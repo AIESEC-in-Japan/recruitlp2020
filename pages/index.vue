@@ -1,12 +1,10 @@
 <template>
   <div class="wrapper">
-    <a class="button">
-      <MainVisual />
-      <Visual />
-      <Button />
-    </a>
+    <MainVisual />
+    <Visual />
   </div>
 </template>
+
 <script>
 import MainVisual from '~/components/MainVisual.vue'
 import Visual from '~/components/Visual.vue'
@@ -28,5 +26,4 @@ export default {
 }
 </script>
 
-<style>
-</style>
+<style></style>

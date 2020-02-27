@@ -2,21 +2,23 @@
   <div class="visual-container">
     <h1>
       世界を変えるのは、
-      <br />誰だっていい。
     </h1>
 
-    <p>
-      ステートメント
-      <br />ステートメント
-      <br />ステートメント
+<!---    <p>
+      もしかしたら君かもしれないし、
+      <br />もしかしたらあの子かもしれないし、
+      <br />もしかしたらみんなかもしれない
     </p>
-
+		--->
     <p class="message-sub">
       別に誰が変えたっていいんだよ
       <br />キミかもしれないんだよ
     </p>
 
-    <p>うんぬんかんぬんぬん。</p>
+    <p>
+			一緒に世界を良くする仲間になることを、
+			<br />考えてみてもらえませんか。
+		</p>
   </div>
 </template>
 
@@ -34,6 +36,7 @@
   justify-content: center;
   text-align: center;
   letter-spacing: 0.3em;
+	line-height: 32px;
 
   h1 {
     color: #fff;
