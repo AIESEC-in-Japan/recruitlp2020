@@ -51,21 +51,26 @@ export default {
 .loading {
   position: fixed;
   top: 0;
+  right: 0;
+  bottom: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: white;
-  text-align: center;
-  padding-top: 200px;
+  background: black;
   font-size: 30px;
   font-family: sans-serif;
   z-index: 9999;
 }
 
 .anim {
-  height: 100px;
-  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  height: 30%;
   overflow: hidden;
-  width: 100px;
+  width: 30%;
 }
 </style>

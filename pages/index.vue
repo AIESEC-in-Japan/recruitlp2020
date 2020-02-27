@@ -1,10 +1,10 @@
 <template>
   <div class="wrapper">
-  <a class="button">
-    <MainVisual />
-    <Visual />
-    <Button />
-  </a>
+    <a class="button">
+      <MainVisual />
+      <Visual />
+      <Button />
+    </a>
   </div>
 </template>
 <script>
@@ -16,15 +16,15 @@ export default {
   components: {
     MainVisual,
     Visual,
-    Button,
+    Button
   },
-  mounted () {
+  mounted() {
     this.$nextTick(() => {
       this.$nuxt.$loading.start()
 
-      setTimeout(() => this.$nuxt.$loading.finish(), 500)
+      setTimeout(() => this.$nuxt.$loading.finish(), 3000)
     })
-  },
+  }
 }
 </script>
 
