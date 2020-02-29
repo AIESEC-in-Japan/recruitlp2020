@@ -17,7 +17,6 @@ import Visual from '~/components/Visual.vue'
 import Button from '~/components/Button.vue'
 import AboutAIESEC from '~/components/AboutAIESEC.vue'
 
-
 export default {
   components: {
     MainVisual,

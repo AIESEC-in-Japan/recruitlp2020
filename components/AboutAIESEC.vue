@@ -52,7 +52,6 @@ export default {
         font-size: 13px;
         letter-spacing: 0.3em;
         line-height: 2;
-        letter-spacing: 0.3em;
         margin: 1.2em 0;
     }
 }
