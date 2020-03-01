@@ -18,13 +18,13 @@ export default {}
 .footer {
   background-color: #000;
   color: #fff;
-  height: 10em;
+  height: 5em;
 
   .footer-bottom {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    padding: 4em;
+    padding: 2em;
 
     .copy-right-text {
       p {
