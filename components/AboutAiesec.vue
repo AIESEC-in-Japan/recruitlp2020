@@ -31,6 +31,7 @@ export default {
     width: 100%;
     height: 100vh;
     background-color:white;
+    text-align: center;
 
     h2 {
         color: black;
@@ -52,5 +53,7 @@ export default {
 
 .Button {
     margin: 12px;
+    margin-left: auto;
+    margin-right: auto;
 }
 </style>
