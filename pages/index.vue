@@ -2,6 +2,7 @@
   <div class="wrapper">
     <MainVisual />
     <Visual />
+    <Footer />
   </div>
 </template>
 
@@ -9,12 +10,14 @@
 import MainVisual from '~/components/MainVisual.vue'
 import Visual from '~/components/Visual.vue'
 import Button from '~/components/Button.vue'
+import Footer from '~/components/Footer.vue'
 
 export default {
   components: {
     MainVisual,
     Visual,
-    Button
+    Button,
+    Footer
   },
   mounted() {
     this.$nextTick(() => {
