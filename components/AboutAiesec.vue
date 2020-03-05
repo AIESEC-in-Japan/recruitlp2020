@@ -30,21 +30,22 @@ export default {
 .About-Aiesec {
     width: 100%;
     height: 100vh;
-    background-color:white;
+    background-color:#ffffff;
     text-align: center;
 
     h2 {
         color: black;
         font-style: italic;
         font-weight: bold;
-        padding: 30px 0;
-        font-size: 35px;
+        font-size: 38px;
         letter-spacing: 0.1em;
+        padding-bottom: 50px;
+        padding-top: 200px;
     }
 
     p {
         color: black;
-        font-size: 13px;
+        font-size: 15px;
         letter-spacing: 0.3em;
         line-height: 2;
         margin: 1.2em 0;
@@ -52,8 +53,9 @@ export default {
 }
 
 .Button {
-    margin: 12px;
+    margin: 55px;
     margin-left: auto;
     margin-right: auto;
+    
 }
 </style>
