@@ -11,7 +11,7 @@
         <p>興味のある方はぜひ一度説明会やイベントにお越しください！</p>
 
     <div class="Button">
-        <Button/>
+        <Button />
     </div>
     </div>
 </template>

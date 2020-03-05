@@ -3,7 +3,7 @@
     <MainVisual />
     <Visual />
   <div class="About-Aiesec">
-    <AboutAiesec/>
+    <AboutAiesec />
   </div>
   </div>
 </template>
