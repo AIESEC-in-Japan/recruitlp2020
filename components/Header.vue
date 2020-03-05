@@ -1,28 +1,21 @@
 <template>
   <header class="header-container">
-    <h1 class="header-logo">
-      <!-- <a href="/">
-        <img src="~/assets/logo-white-300x43.png" alt="AIESEC" />
-      </a> -->
-      aiesec in japan
-    </h1>
-
     <nav>
       <ul>
         <li>
-          <a href="#student">学生の方</a>
+          <a href="#about">about.</a>
         </li>
         <li>
-          <a href="#company">企業の方</a>
+          <a href="#internships">interships.</a>
         </li>
         <li>
-          <a href="#about">アイセックとは</a>
+          <a href="#activities">activities.</a>
         </li>
         <li>
-          <a href="/archive">アーカイブ</a>
+          <a href="#join">join.</a>
         </li>
         <li>
-          <a href="/press">プレスルーム</a>
+          <a href="#contact">contact.</a>
         </li>
       </ul>
     </nav>
@@ -33,13 +26,13 @@
 .header-container {
   position: fixed;
   top: 0;
-  background-color: #037ff3;
+  background-color: black;
   width: 100%;
   height: 80px;
   line-height: 80px;
 
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   margin: 0 auto;
   padding: 0px 5%;
 
@@ -47,14 +40,17 @@
     display: flex;
   }
   li {
-    margin-left: 30px;
+    margin-left: 35px;
     list-style-type: none;
+    display: inline-block;
   }
   a {
     color: #fff;
     font-weight: bold;
     text-decoration: none;
     font-size: 15px;
+    font-style: italic;
+    letter-spacing: 3px;
   }
   a:hover {
     opacity: 0.7;
