@@ -2,9 +2,7 @@
   <div class="wrapper">
     <MainVisual />
     <Visual />
-  <div class="About-Aiesec">
     <AboutAiesec />
-  </div>
   </div>
 </template>
 
