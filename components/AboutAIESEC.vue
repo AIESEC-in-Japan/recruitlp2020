@@ -1,6 +1,6 @@
 <template>
-    <div class="AboutAIESEC">
-        <h>About AIESEC</h>
+    <div class="About-Aiesec">
+        <h2>About AIESEC</h2>
 
         <p>AIESEC（アイセック）とは、世界126の国と地域に支部を持ち、<br>
         約70000人のメンバーが所属している、世界最大級の学生団体です。</p>
@@ -27,18 +27,12 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.AboutAIESEC{
+.About-Aiesec {
     width: 100%;
     height: 100vh;
     background-color:white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: space-between;
-    justify-content: center;
-    text-align: center;
 
-    h{
+    h2 {
         color: black;
         font-style: italic;
         font-weight: bold;
@@ -47,7 +41,7 @@ export default {
         letter-spacing: 0.1em;
     }
 
-    p{
+    p {
         color: black;
         font-size: 13px;
         letter-spacing: 0.3em;
@@ -56,7 +50,7 @@ export default {
     }
 }
 
-.Button{
+.Button {
     margin: 12px;
 }
 </style>
