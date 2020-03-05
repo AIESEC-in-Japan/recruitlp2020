@@ -1,13 +1,13 @@
 <template>
-  <!-- footer start -->
   <footer class="footer">
     <div class="footer-bottom">
       <div class="copy-right-text">
-        <p>Copyright &copy; 2020 AIESEC in Japan All rights reserved.</p>
+        <p>
+          <small>Copyright &copy; 2020 AIESEC in Japan All rights reserved.</small>
+        </p>
       </div>
     </div>
   </footer>
-  <!--/ footer end  -->
 </template>
 
 <script>
@@ -18,17 +18,20 @@ export default {}
 .footer {
   background-color: #000;
   color: #fff;
-  height: 5em;
+  height: 2em;
 
   .footer-bottom {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    padding: 2em;
 
     .copy-right-text {
       p {
-        color: #fff;
+        small {
+          color: #fff;
+          font-size: 12px;
+          line-height: 12px;
+        }
       }
     }
   }
