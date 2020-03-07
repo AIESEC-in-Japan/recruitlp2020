@@ -2,7 +2,10 @@
   <div class="wrapper">
     <MainVisual />
     <Visual />
-    <AboutAiesec />
+    <div id="about">
+      <AboutAiesec />
+    </div>
+    
   </div>
 </template>
 
