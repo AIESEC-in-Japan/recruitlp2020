@@ -55,3 +55,8 @@ export default {
     extend(config, ctx) {}
   }
 }
+export default {
+  plugins: [
+    '~plugins/vue-scrollto'
+  ]
+}
