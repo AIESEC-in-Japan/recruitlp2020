@@ -36,8 +36,8 @@
   justify-content: center;
   text-align: center;
   letter-spacing: 0.3em;
-	line-height: 32px;
-
+  line-height: 32px;
+  
   h1 {
     color: #fff;
     font-style: italic;
